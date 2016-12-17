@@ -11,7 +11,7 @@ from meya import Component
 from meya.cards import Card, Cards
 
 
-CACHE_REFRESH = 1  # 60 * 60  # 1 hour
+CACHE_REFRESH = 60 * 60  # 1 hour
 
 
 class PollContent(Component):
