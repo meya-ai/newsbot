@@ -2,6 +2,8 @@
     intent: meya.keyword
     settings:
         keyword: __daily__
+-   flow: dontunderstand
+    intent: meya.catchall
 -   flow: onboard
     intent: meya.keyword
     settings:
