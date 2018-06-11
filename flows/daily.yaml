@@ -1,4 +1,7 @@
-name: daily
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: __daily__
 states:
     getnews:
         component: getnews

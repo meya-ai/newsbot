@@ -1,4 +1,7 @@
-name: subscribe
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: subscribe
 states:
     subscribe:
         component: meya.set
