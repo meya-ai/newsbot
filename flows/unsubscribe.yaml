@@ -1,4 +1,8 @@
-name: unsubscribe
+triggers:
+  - type: meya.regex
+    properties:
+        ignorecase: true
+        pattern: ^(unsubscribe)|(cancel)$
 states:
     unsubscribe:
         component: meya.unset

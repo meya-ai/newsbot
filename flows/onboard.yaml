@@ -1,4 +1,7 @@
-name: onboard
+triggers:
+  - type: meya.keyword
+    properties:
+        keyword: _onboard
 states:
     hi:
         component: meya.text
